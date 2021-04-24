@@ -8,18 +8,18 @@ TCLxLINING
 如要修改请运行脚本并在获得助力码后立即中止脚本，去添加助力码变量后重新运行脚本。
 环境变量：export Z_TCL_LINING = ''
 
+更新地址：https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js
 ============Quantumultx===============
 [task_local]
-#TCLxLINING
-25 8 * * * https://share.r2ray.com/dust/car/z_tcl_liling.js, tag=TCLxLINING,  enabled=true
+#TCL
+15 15 * * * https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, tag=TCL,  enabled=true
 ================Loon==============
 [Script]
-cron "25 8 * * *" script-path=https://share.r2ray.com/dust/car/z_tcl_liling.js,tag=TCLxLINING
+cron "15 15 * * *" script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js,tag=TCL
 ===============Surge=================
-TCLxLINING = type=cron,cronexp="25 8 * * *",wake-system=1,timeout=3600,script-path=https://share.r2ray.com/dust/car/z_tcl_liling.js
+TCL = type=cron,cronexp="15 15 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js
 ============小火箭=========
-TCLxLINING = type=cron,script-path=https://share.r2ray.com/dust/car/z_tcl_liling.js, cronexpr="25 8 * * *", timeout=3600, enable=true
-
+TCL = type=cron,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, cronexpr="15 15 * * *", timeout=3600, enable=true
 
 
 活动期间，每个账号仅允许助力一位好友，脚本默认助力作者，
