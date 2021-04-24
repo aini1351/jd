@@ -12,14 +12,14 @@ TCLxLINING
 ============Quantumultx===============
 [task_local]
 #TCL
-15 15 * * * https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, tag=TCL,  enabled=true
+15 8 * * * https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, tag=TCL,  enabled=true
 ================Loon==============
 [Script]
-cron "15 15 * * *" script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js,tag=TCL
+cron "15 8 * * *" script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js,tag=TCL
 ===============Surge=================
-TCL = type=cron,cronexp="15 15 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js
+TCL = type=cron,cronexp="15 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js
 ============小火箭=========
-TCL = type=cron,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, cronexpr="15 15 * * *", timeout=3600, enable=true
+TCL = type=cron,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, cronexpr="15 8 * * *", timeout=3600, enable=true
 
 
 活动期间，每个账号仅允许助力一位好友，脚本默认助力作者，
