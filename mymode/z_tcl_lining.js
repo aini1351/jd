@@ -9,14 +9,14 @@ TCLxLINING
 ============Quantumultx===============
 [task_local]
 #TCL
-15 8 * * * https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, tag=TCL,  enabled=true
+15 8 * * * https://raw.githubusercontent.com/ycfnzz/jd/main/mymode/z_tcl_lining.js, tag=TCL,  enabled=true
 ================Loon==============
 [Script]
-cron "15 8 * * *" script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js,tag=TCL
+cron "15 8 * * *" script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/mymode/z_tcl_lining.js,tag=TCL
 ===============Surge=================
-TCL = type=cron,cronexp="15 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js
+TCL = type=cron,cronexp="15 8 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/mymode/z_tcl_lining.js
 ============小火箭=========
-TCL = type=cron,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/TCL.js, cronexpr="15 8 * * *", timeout=3600, enable=true
+TCL = type=cron,script-path=https://raw.githubusercontent.com/ycfnzz/jd/main/mymode/z_tcl_lining.js, cronexpr="15 8 * * *", timeout=3600, enable=true
 活动期间，每个账号仅允许助力一位好友，脚本默认助力作者，
 如要修改请运行脚本并在获得助力码后立即中止脚本，去添加助力码变量后重新运行脚本。
 环境变量：export Z_TCL_LINING = ''
